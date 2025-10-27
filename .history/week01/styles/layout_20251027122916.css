@@ -40,6 +40,7 @@ nav{
 
 footer{
     display: flex;
+    flex-direction: row;
     grid-column: 1/6;
     background-color: lightgray;
     justify-content: center;

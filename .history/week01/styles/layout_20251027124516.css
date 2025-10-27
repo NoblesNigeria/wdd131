@@ -39,7 +39,6 @@ nav{
 
 
 footer{
-    display: flex;
     grid-column: 1/6;
     background-color: lightgray;
     justify-content: center;
