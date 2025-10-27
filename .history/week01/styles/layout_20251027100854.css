@@ -16,7 +16,6 @@ body{
 }
 h1{
     text-align: left;
-    margin-left: 20px;
 }
 nav{
     display: flex;
@@ -24,5 +23,4 @@ nav{
     flex-direction: row;
     align-items: center;
     gap: 150px;
-    margin-left: 50px;
 }

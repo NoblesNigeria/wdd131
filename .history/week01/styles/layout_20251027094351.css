@@ -6,23 +6,22 @@ body{
     margin: 0;
     gap: 10px;
     width: 840px;
-    border: 2px solid black;
 }
 .header-content{
     display: flex;
-    flex-direction: column;
+    grid-column: 1/6;
+    grid-row: 1;
     background-color: lightgray;
-    width: 840px;
 }
 h1{
-    text-align: left;
-    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    grid-column: 1/2;
 }
 nav{
     display: flex;
-    grid-column: 1/6;
-    flex-direction: row;
+    grid-column: 1/4;
+    flex
+    margin-left: auto;
     align-items: center;
-    gap: 150px;
-    margin-left: 50px;
 }

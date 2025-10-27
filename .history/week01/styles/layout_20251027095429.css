@@ -10,19 +10,17 @@ body{
 }
 .header-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+    grid-row: 1;
     background-color: lightgray;
+    flex-direction: row;
+    align-items: center;
     width: 840px;
-}
-h1{
-    text-align: left;
-    margin-left: 20px;
 }
 nav{
     display: flex;
     grid-column: 1/6;
     flex-direction: row;
     align-items: center;
-    gap: 150px;
-    margin-left: 50px;
 }

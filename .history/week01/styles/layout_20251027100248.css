@@ -12,17 +12,14 @@ body{
     display: flex;
     flex-direction: column;
     background-color: lightgray;
+    align-items: center;
     width: 840px;
-}
-h1{
-    text-align: left;
-    margin-left: 20px;
 }
 nav{
     display: flex;
     grid-column: 1/6;
     flex-direction: row;
     align-items: center;
-    gap: 150px;
-    margin-left: 50px;
+    gap: 150px
+    border
 }
