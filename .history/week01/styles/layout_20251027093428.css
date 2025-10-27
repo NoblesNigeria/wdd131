@@ -7,7 +7,7 @@ body{
     gap: 10px;
     width: 840px;
 }
-.header-content{
+.headercontent{
     display: flex;
     grid-column: 1/6;
     grid-row: 1;
