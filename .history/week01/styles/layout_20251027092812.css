@@ -6,10 +6,4 @@ body{
     margin: 0;
     gap: 10px;
     width: 840px;
-}
-.header content{
-    display: flex;
-    grid-column: 1/6;
-    grid-row: 1;
-    background-color: lightgray;
-}
+}100%;

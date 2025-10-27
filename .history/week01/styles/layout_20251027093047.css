@@ -8,8 +8,8 @@ body{
     width: 840px;
 }
 .header content{
-    display: flex;
-    grid-column: 1/6;
-    grid-row: 1;
+    display: fle
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 1;
     background-color: lightgray;
 }
