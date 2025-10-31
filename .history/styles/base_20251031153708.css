@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template-columns: repeat();
+    font-family:"Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: lightgray;
+    padding: 20px;
+}
+#course-title{
+    display: block;
+    text-align: center;
+    font-weight: 400 bold;
+    font-size: 2rem;
+    color: blue;
+}
+nav{
+    bac
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 100;
+    gap: 30px;
+}
+.sky{
+    color: green;
+}
+.design{
+    color: purple;
+}

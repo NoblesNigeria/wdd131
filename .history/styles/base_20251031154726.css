@@ -1,0 +1,42 @@
+body{
+    display: grid;
+    grid-template-columns: repeat();
+    font-family:"Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: lightgray;
+    padding: 20px;
+}
+#course-title{
+    display: block;
+    text-align: center;
+    font-weight: 400 bold;
+    font-size: 2rem;
+    color: blue;
+}
+nav{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 100;
+    gap: 50px;
+    padding: 10px;
+}
+.sky{
+    color: green;
+}
+.design{
+    color: purple;
+}
+main{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/4    ;
+}
