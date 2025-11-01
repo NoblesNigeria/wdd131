@@ -26,7 +26,7 @@ nav{
     gap: 50px;
     padding: 10px;
 }
-nav a hover{
+nav a: hover{
     text-decoration: inline;
 }
 .reference{

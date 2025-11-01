@@ -26,8 +26,8 @@ nav{
     gap: 50px;
     padding: 10px;
 }
-nav a hover{
-    text-decoration: inline;
+nav a: hover{
+    text-decoration: underline;
 }
 .reference{
     grid-column: 6;
