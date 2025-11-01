@@ -1,0 +1,14 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+main, header, footer{
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+    margin: 1rem auto;
+}
+main{
+    diaply
+}

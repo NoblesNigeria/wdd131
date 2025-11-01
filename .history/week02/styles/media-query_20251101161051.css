@@ -1,0 +1,15 @@
+body{
+    font-family: ro;
+
+}
+main, header, footer{
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+    margin: 1rem auto;
+}
+main{
+    diaplay: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}

@@ -1,0 +1,17 @@
+body{
+    font-family: robot0o, sans-serif;
+
+}
+main, header, footer{
+    max-width: 640px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+    margin: 1rem auto;
+    
+}
+main{
+    diaplay: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}

@@ -1,0 +1,11 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+main, header, footer{
+    padding: 20px;
+    text-align: center;
+    background-color: light;
+    margin: 10px;
+}

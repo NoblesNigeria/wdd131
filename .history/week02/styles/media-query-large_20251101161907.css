@@ -1,0 +1,5 @@
+@media query and(min-width:500px){
+    body{
+        font-family: roboto, sans-serif;
+    }
+}
