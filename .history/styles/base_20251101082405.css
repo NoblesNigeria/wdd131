@@ -32,7 +32,7 @@ nav a:hover{
 .reference{
     grid-column: 6;
     grid-row: 2/6;
-    border: 2px solid blue;
+    border: 2px solid b;
     padding: 10px;
     width: 400px;
 }
@@ -41,7 +41,7 @@ nav a:hover{
     color: darkblue;
 }
 .skill{
-    color: orange;
+    color: skyblue;
 }
 .school{
     color: green;
