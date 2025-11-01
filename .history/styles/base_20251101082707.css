@@ -41,7 +41,7 @@ nav a:hover{
     color: darkblue;
 }
 .skill{
-    color: red;
+    color: ;
 }
 .school{
     color: green;
@@ -95,5 +95,5 @@ footer p{
     margin: 5px;
 }
 footer{
-    background-color:lightgrey;
+    background-color: blue;
 }
