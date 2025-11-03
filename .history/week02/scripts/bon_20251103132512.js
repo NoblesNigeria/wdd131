@@ -23,4 +23,4 @@ deleteButton.addEventListener('click',function(){
     list.removeChild(li);
     input.focus();
 })
-document.querySelector('list');
+'
