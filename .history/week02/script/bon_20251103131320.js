@@ -7,8 +7,7 @@ li.textContent=input.value;
 deleteButton.textContent='X';
 li.append(deleteButton);
 list.append(li);
-console.log(list);
-<button aria-label= "close" id= "close-button">X</button>
+console.log(list);<button aria-label= "close" id= "close-button">X</button>
 button.addEventListener('click',function(){
     if(input.value.trim!==''){
         const li=document.createElement('li');
@@ -23,4 +22,5 @@ button.addEventListener('click',function(){
 deleteButton.addEventListener('click',function(){
     list.removeChild(li);
     input.focus();
+    console.log(list);
 })
