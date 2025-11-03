@@ -7,7 +7,7 @@ li.textContent=input.value;
 deleteButton.textContent='X';
 li.append(deleteButton);
 list.append(li);
-console.log(list);
+co
 <button aria-label= "close" id= "close-button">X</button>
 button.addEventListener('click',function(){
     if(input.value.trim!==''){
