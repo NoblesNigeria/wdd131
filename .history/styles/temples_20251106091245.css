@@ -28,6 +28,8 @@ figure, figcaption, img{
 
 @media (min-width: 32px){
     header{
+    display:grid;
+    grid-template-columns:1fr;
     background-color: #d3d3d3;
     }
     header h1{

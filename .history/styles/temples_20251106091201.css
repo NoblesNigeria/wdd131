@@ -28,14 +28,22 @@ figure, figcaption, img{
 
 @media (min-width: 32px){
     header{
+    display:grid;
+    grid-template-columns:1fr;
     background-color: #d3d3d3;
     }
     header h1{
+        display:flex;
+        grid-column: 1;
+        justify-content: center;
         text-align: center;
         color:blue;
     }
     nav{
-        color:black;
+        display: flex;
+        flex-direction: column;
+        grid-column: 1;
+        color:bl
 
     }
 }

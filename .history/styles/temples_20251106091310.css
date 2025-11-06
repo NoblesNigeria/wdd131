@@ -27,7 +27,7 @@ figure, figcaption, img{
 }
 
 @media (min-width: 32px){
-    header{
+    header{}
     background-color: #d3d3d3;
     }
     header h1{
