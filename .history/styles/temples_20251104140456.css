@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    grid-row: 1;
+}
+main{
+    display: grid;
+    grid-template-columns:1fr;
+}

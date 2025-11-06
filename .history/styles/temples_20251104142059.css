@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display:grid;
+    grid-template-columns:1fr;
+    background-color: lightgray;
+
+}
+h1{
+    grid-column: 1/2;
+    text-align: center;
+    color:blue;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    grid-row: 1;
+    color:black;
+
+}
+main{
+    display: grid;
+    grid-template-columns:1fr;
+}

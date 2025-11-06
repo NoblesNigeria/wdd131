@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+        display:grid;
+        grid-template-columns:1fr;
+        background-color: lightgray;
+
+    }
+    h1{
+        display:flex;
+        grid-column: 1;
+        justify-content: center;
+        text-align: center;
+        color:blue;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        grid-column: 1;
+        color:black;
+        align-items: center;
+
+    }
+    main{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    figure, figcaption, img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgray;
+        color:black;
+        margin-top: 20px;
+        border-top: 2px solid black;
+    }
+}
+@media (min-width: 32px){
+    
+}

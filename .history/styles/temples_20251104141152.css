@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display:flex;
+    justify-content: center;
+    grid-row: 1;
+    background-color: lightgray;
+    text-align: center;
+    color:blue;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: 1/3;
+    background-color: lightgreen;
+    grid-column: ;
+
+}
+main{
+    display: grid;
+    grid-template-columns:1fr;
+}
