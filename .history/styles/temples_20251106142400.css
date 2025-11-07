@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #d3d3d3;
+
+}
+header h1{
+    text-align: center;
+    color:blue;
+}
+nav{
+    color:black;
+
+}nav a:hover{
+    color: darkblu
+}
+nav ul{
+    display:block;
+    flex-direction: row;
+    grid-column: 1/6;
+    background-color: lightgreen;
+    color:black;
+    gap: 100px;
+}
+main{
+    display: grid;
+    grid-template-columns:1fr;
+}
+figure, figcaption, img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    color:black;
+    margin-top: 20px;
+    border-top: 2px solid black;
+}
+
+@media (min-width: 300px){
+    body{
+    font-family: 'Roboto', sans-serif;
+    }
+
+}

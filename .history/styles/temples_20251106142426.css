@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #d3d3d3;
+
+}
+header h1{
+    text-align: center;
+    color:blue;
+}
+nav{
+    color:black;
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    grid-column: 1/6;
+    background-color: lightgreen;
+    color:black;
+    gap: 100px;
+
+}
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	background-color: #eee;
+	color: #000;
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+.navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+nav ul{
+    display:block;
+    flex-direction: row;
+    grid-column: 1/6;
+    background-color: lightgreen;
+    color:black;
+    gap: 100px;
+}
+main{
+    display: grid;
+    grid-template-columns:1fr;
+}
+figure, figcaption, img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    color:black;
+    margin-top: 20px;
+    border-top: 2px solid black;
+}
+
+@media (min-width: 300px){
+    body{
+    font-family: 'Roboto', sans-serif;
+    }
+
+}

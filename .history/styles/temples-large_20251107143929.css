@@ -1,0 +1,49 @@
+body{
+    display: ab;
+    font-family: 'Roboto', sans-serif;
+    width: 840px;
+    margin-left: 200px;
+}
+header{
+    background-color: lightgray;
+
+
+}
+header h1{
+    justify-content:center; ;
+    color:blue;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: lightgreen;
+    color:black;
+    gap: 100px;
+
+}
+main{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+main h1{
+    display:flex;
+    grid-column: 1/4;
+    text-align: center;
+    color:blue;
+}
+figure, figcaption, img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    color:black;
+    border-top: 2px solid black;
+}
+
