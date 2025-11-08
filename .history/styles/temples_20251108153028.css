@@ -78,10 +78,13 @@ nav ul{
 main{
     display: grid;
     grid-template-columns:1fr;
+	width:640px;
 }
 figure, figcaption, img{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 figcaption{
 	color: purple;
@@ -93,8 +96,8 @@ footer{
     align-items: center;
     background-color: lightgray;
     color:black;
+    margin-top: 20px;
     border-top: 2px solid black;
-	width: 100%;
 }
 
 body {
