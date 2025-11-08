@@ -8,6 +8,8 @@ header{
 
 }
 header span{
+    
+    justify-content:center; ;
     color:blue;
 }
 nav ul{

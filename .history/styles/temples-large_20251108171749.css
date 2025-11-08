@@ -8,6 +8,8 @@ header{
 
 }
 header span{
+    display: flex;
+    grid
     color:blue;
 }
 nav ul{

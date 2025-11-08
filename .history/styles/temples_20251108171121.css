@@ -5,8 +5,8 @@ header{
     background-color: #d3d3d3;
 
 }
-header span{
-    align-items: center;
+headerspan{
+    text-align: center;
     color:blue;
 }
 nav{
