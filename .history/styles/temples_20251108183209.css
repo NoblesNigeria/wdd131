@@ -17,6 +17,12 @@ nav a:hover{
 	margin: 0 auto;
 	max-width: 760px;
 }
+.navigation a:hover,
+.navigation a:active {
+	color: white;
+	background-color: black;
+}
+
 .show li {
 	display: block;
 }
@@ -31,7 +37,7 @@ nav a:hover{
     color:lightskyblue;
 }
 .sharp{
-    color: black;
+    color: ;
 }
 main{
     display: grid;
