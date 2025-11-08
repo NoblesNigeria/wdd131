@@ -8,6 +8,7 @@ header{
 header span{
     color:blue;
 }
+
 nav a:hover{
     background-color: darkgreen;
     color:white;
@@ -91,7 +92,6 @@ h1,header span {
 
 nav {
 	background-color: lightgray;
-	color:black;
 }
 
 .show li {
