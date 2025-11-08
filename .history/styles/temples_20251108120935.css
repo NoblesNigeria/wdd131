@@ -68,12 +68,7 @@ nav ul{
     color:black;
     gap: 100px;
 }
-.box{
-    color: purple;
-}
-.give{
-    color: red;
-}
+
 main{
     display: grid;
     grid-template-columns:1fr;

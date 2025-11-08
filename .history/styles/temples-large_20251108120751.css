@@ -24,9 +24,7 @@ nav ul{
 .box{
     color: purple;
 }
-.give{
-    color: red;
-}
+
 main{
     display: grid;
     grid-template-columns:repeat(3, 1fr);

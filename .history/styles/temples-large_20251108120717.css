@@ -21,12 +21,7 @@ nav ul{
     gap: 100px;
 
 }
-.box{
-    color: purple;
-}
-.give{
-    color: red;
-}
+.box
 main{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
