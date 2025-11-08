@@ -3,6 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 840px;
     margin-left: 200px;
+    flex-wrap:
 }
 header{
     background-color: lightgray;
@@ -54,3 +55,5 @@ footer{
     color:black;
     border-top: 2px solid black;
 }
+
+
