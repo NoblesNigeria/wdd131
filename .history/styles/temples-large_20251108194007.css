@@ -18,6 +18,7 @@ nav ul{
     gap: 100px;
 
 }
+
 main{
     display: grid;
     grid-template-columns:repeat(3 auto);
