@@ -33,7 +33,7 @@ nav ul{
 main{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    width:800px;
+    i
 }
 main h1{
     display:flex;
