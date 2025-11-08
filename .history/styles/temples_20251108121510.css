@@ -87,9 +87,6 @@ figure, figcaption, img{
     align-items: center;
     margin: 10px;
 }
-figcaption{
-	color: purple;
-}
 footer{
     display: flex;
     flex-direction: column;
