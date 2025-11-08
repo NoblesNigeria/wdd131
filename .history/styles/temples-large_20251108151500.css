@@ -1,6 +1,7 @@
 body{
     display: absolute;
     font-family: 'Roboto', sans-serif;
+    width: 840px;
     margin-left: 200px;
 }
 header{
@@ -32,8 +33,6 @@ nav ul{
 main{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    justify-content: center;
-    margin-left: 250px;;
 }
 main h1{
     display:flex;

@@ -1,6 +1,7 @@
 body{
     display: absolute;
     font-family: 'Roboto', sans-serif;
+    width: 840px;
     margin-left: 200px;
 }
 header{
@@ -32,8 +33,8 @@ nav ul{
 main{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
+    align-items: center;
     justify-content: center;
-    margin-left: 250px;;
 }
 main h1{
     display:flex;
@@ -44,10 +45,13 @@ main h1{
 figure, figcaption, img{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 footer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: lightgray;
     color:black;
     border-top: 2px solid black;
