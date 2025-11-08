@@ -188,4 +188,7 @@ In most WDD courses there is a requirement to use a separate file. This part wou
     display: grid;
     grid-template-columns:1fr;
 	}
+	header, main, footer{
+		display: fle
+	}
 }
