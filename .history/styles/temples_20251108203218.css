@@ -31,6 +31,7 @@ nav a:hover{
 .sharp{
     color: black;
 }
+
 figure, figcaption, img{
     display: flex;
     flex-direction: column;
@@ -124,8 +125,4 @@ In most WDD courses there is a requirement to use a separate file. This part wou
 	#menu {
 		display: none;
 	}
-	main{
-    display: grid;
-    grid-template-columns:1fr;
-}
 }
