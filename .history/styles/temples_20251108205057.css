@@ -1,4 +1,5 @@
 
+
 header span{
     color:blue;
 }
@@ -92,6 +93,9 @@ nav {
 	display: block;
 }
 
+#menu.show::before {
+	content: "X";
+}
 
 /* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.  
 
