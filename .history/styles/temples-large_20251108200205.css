@@ -20,7 +20,7 @@ nav ul{
 }
 main{
     display: grid;
-    grid-template-columns:repeat(3 1fr auto);
+    grid-template-columns:repeat(31fr);
 }
 main h1{
     display:flex;
