@@ -22,13 +22,10 @@ nav ul{
 
 }
 .box{
-    color: blue;
+    color: bl;
 }
 .give{
     color: red;
-}
-.sharp{
-    color: green;
 }
 main{
     display: grid;

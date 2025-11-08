@@ -73,9 +73,6 @@ nav ul{
 .give{
     color: red;
 }
-.sharp{
-    color: green;
-}
 main{
     display: grid;
     grid-template-columns:1fr;
