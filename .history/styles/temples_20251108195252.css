@@ -121,7 +121,7 @@ In most WDD courses there is a requirement to use a separate file. This part wou
 		display: flex;
 	}
 	.navigation a {
-		display: block;/* change state in small view */
+		display: block/* change state in small view */
 		flex: 1 1 100%;
 
 	}
@@ -131,4 +131,4 @@ In most WDD courses there is a requirement to use a separate file. This part wou
 	#menu {
 		display: none;
 	}
-}
+};

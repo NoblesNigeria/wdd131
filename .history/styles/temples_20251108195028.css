@@ -86,6 +86,7 @@ nav {
 	display: none;
 }
 .navigation a {
+	display: absolute;
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
@@ -121,7 +122,7 @@ In most WDD courses there is a requirement to use a separate file. This part wou
 		display: flex;
 	}
 	.navigation a {
-		display: block;/* change state in small view */
+		display: absolute; /* change state in small view */
 		flex: 1 1 100%;
 
 	}
@@ -131,4 +132,4 @@ In most WDD courses there is a requirement to use a separate file. This part wou
 	#menu {
 		display: none;
 	}
-}
+};
