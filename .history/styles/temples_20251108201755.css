@@ -18,6 +18,9 @@ nav a:hover{
 	margin: 0 auto;
 	max-width: 760px;
 }
+.show li {
+	display: block;
+}
 
 #menu.show::before {
 	content: "X";
