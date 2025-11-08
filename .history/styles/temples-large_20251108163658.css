@@ -32,6 +32,9 @@ main{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
 }
+main, nav ul{
+        flex-wrap: wrap;
+}
 main h1{
     display:flex;
     grid-column: 1/4;

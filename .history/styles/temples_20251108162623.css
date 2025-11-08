@@ -82,7 +82,7 @@ main{
 figure, figcaption, img{
     display: flex;
     flex-direction: column;
-	justify-content: center;
+	justify-content: ;
 }
 figcaption{
 	color: purple;

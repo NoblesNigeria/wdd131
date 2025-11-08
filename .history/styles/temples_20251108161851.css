@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+	width
 }
 header{
     background-color: #d3d3d3;
@@ -82,7 +83,6 @@ main{
 figure, figcaption, img{
     display: flex;
     flex-direction: column;
-	justify-content: center;
 }
 figcaption{
 	color: purple;
@@ -177,4 +177,4 @@ In most WDD courses there is a requirement to use a separate file. This part wou
 	#menu {
 		display: none;
 	}
-};
+}

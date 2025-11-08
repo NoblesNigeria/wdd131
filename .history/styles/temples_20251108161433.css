@@ -82,7 +82,6 @@ main{
 figure, figcaption, img{
     display: flex;
     flex-direction: column;
-	justify-content: center;
 }
 figcaption{
 	color: purple;
@@ -125,6 +124,7 @@ nav {
 .navigation {
 	list-style: none;
 	margin: 0 auto;
+	max-width: 760px;
 }
 
 .show li {
@@ -177,4 +177,4 @@ In most WDD courses there is a requirement to use a separate file. This part wou
 	#menu {
 		display: none;
 	}
-};
+}

@@ -78,11 +78,11 @@ nav ul{
 main{
     display: grid;
     grid-template-columns:1fr;
+	width
 }
 figure, figcaption, img{
     display: flex;
     flex-direction: column;
-	justify-content: center;
 }
 figcaption{
 	color: purple;

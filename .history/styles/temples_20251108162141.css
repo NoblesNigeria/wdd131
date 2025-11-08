@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+	width:840px;
 }
 header{
     background-color: #d3d3d3;
@@ -82,7 +83,6 @@ main{
 figure, figcaption, img{
     display: flex;
     flex-direction: column;
-	justify-content: center;
 }
 figcaption{
 	color: purple;

@@ -31,7 +31,7 @@ nav ul{
 main{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-}
+
 main h1{
     display:flex;
     grid-column: 1/4;
