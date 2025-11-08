@@ -166,7 +166,7 @@ nav {
 
 In most WDD courses there is a requirement to use a separate file. This part would go into a separate CSS file. 
 */
-@media only screen and (min-width: 40rem) {
+@media only screen and (max-width: 600px) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -189,3 +189,4 @@ In most WDD courses there is a requirement to use a separate file. This part wou
     grid-template-columns:1fr;
 	}
 }
+@media only screen and (max-width: 1020px)
