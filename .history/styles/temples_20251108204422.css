@@ -38,15 +38,6 @@ figcaption{
 	color: purple;
 	text-align: center;
 }
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgray;
-    color:black;
-    border-top: 2px solid black;
-}
 
 h1,header span {
 	font-size: 2rem;

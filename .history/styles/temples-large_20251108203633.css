@@ -28,3 +28,11 @@ main h1{
     justify-content: center;
     color:blue;
 }
+f
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    color:black;
+    border-top: 2px solid black;
+}
