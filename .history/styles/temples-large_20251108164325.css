@@ -30,7 +30,7 @@ nav ul{
 }
 main{
     display: grid;
-    grid-template-columns:repeat(3 auto);
+    grid-template-columns:repeat(auto);
 }
 main h1{
     display:flex;
