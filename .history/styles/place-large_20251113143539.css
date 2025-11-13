@@ -43,7 +43,11 @@ p span{
     left: 20px;;
     bottom: 20px;
 }
-
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+}
 footer p{
     display: flex;
     justify-content: center;
