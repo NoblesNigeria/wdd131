@@ -1,0 +1,11 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media (min-width: 40rem){
+    body{
+        grid-template-columns: 1fr;
+    }
+    
+}
+.

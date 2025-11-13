@@ -1,0 +1,18 @@
+
+@media query and(min-width: 500px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    header h1{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: var(--padding);
+        font-size: 2rem;
+        color: white;
+        align-items: center;
+        background-color: black;
+    }
+}

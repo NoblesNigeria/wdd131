@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.content{
+    position: absolute;
+    border-radius: 10px;
+        font-size: var(--font-size);
+        background-color: green;
+        padding: var(--padding);
+    }
+.place-info{
+    position: absolute;
+    border-radius: 10px;
+    font-size: var(--font-size);
+    background-color: green;
+    padding: var(--padding);
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+    }
+
+
+@media screen and(min-width: 40rem){
+    body{
+        grid-template-columns: 1fr;
+    }
+}

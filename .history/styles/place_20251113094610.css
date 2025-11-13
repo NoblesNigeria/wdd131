@@ -1,0 +1,48 @@
+
+@media query and(min-width: 40rem){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    header h1{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: var(--padding);
+        font-size: 2rem;
+        color: white;
+        align-items: center;
+        background-color: black;
+    }
+}
+    body{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/4;
+    font-size: var(--font-size);
+    background-color: green;
+    justify-content: center;
+}
+.content img{
+    position: block;
+}
+.place-info{
+    font-size: var(--font-size);
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    text-align: center;
+    font-size: var(--font-size);
+    justify-content: center;
+    color: white;
+}

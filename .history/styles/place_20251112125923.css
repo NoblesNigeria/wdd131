@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media (min-width: 40rem){
+    body{
+        grid-template-columns: 1fr;
+    }
+    .hero img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .content{
+        position: absolute;
+        bottom: 0;
+        left: 750px;
+        border-radius: 10px;
+        font-size: var(--font-size);
+        background-color: green;
+        padding: var(--padding);
+    }
+    .content img{
+        top: 20px;
+        right: 20px;
+        position: absolute;
+    }
+.place-info{
+    position: absolute;
+    border-radius: 10px;
+    font-size: var(--font-size);
+    background-color: green;
+    padding: var(--padding);
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+}
+}
+.

@@ -1,0 +1,49 @@
+:root{
+    --font-size: 1.2rem;
+    --padding: 10px;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    width: 1000px;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h1{
+    margin: var(--padding);
+    
+
+}
+.content{
+    position: absolute;
+    bottom: 20px;
+    left: 790px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-size: var(--font-size);
+    background-color: green;
+}
+.content img{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+}
+p{
+    font-weight: bold;
+}
+p span{
+    font-weight: normal;
+}
+.place-info{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-size: var(--font-size);
+    background-color: green;
+}

@@ -1,0 +1,72 @@
+:root{
+    --font-size: 1rem;
+    --padding: 10px;
+
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: center;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: var(--padding);
+    font-size: 2rem;
+    color: white;
+    align-items: center;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+}
+.hero{
+    width: 100%;
+    height: auto;
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    left: 750px;
+    font-size: var(--font-size);
+    background-color: green;
+}
+.content img{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+}
+p{
+    font-weight: bold;
+}
+p span{
+    font-weight: normal;
+}
+.place-info{
+    position: absolute;
+    left: 20px;;
+    font-size: var(--font-size);
+    background-color: green;
+    bottom: 20px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: var(--padding);
+    font-size: 1rem;
+    color: white;
+    align-items: center;
+}

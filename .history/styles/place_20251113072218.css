@@ -1,0 +1,37 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.content{
+    font-size: var(--font-size);
+    background-color: green;
+    justify-content: center;
+}
+.place-info{
+    font-size: var(--font-size);
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+    font-size: var(--font-size);
+    justify-content: center;
+}
+@media query and(min-width: 500px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    header h1{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: var(--padding);
+        font-size: 2rem;
+        color: white;
+        align-items: center;
+        background-color: black;
+    }
+}
