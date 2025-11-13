@@ -61,8 +61,8 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        font-size: var(--font-size);
-        background-color: green;
-    }
+    align-items: center;
+    font-size: var(--font-size);
+    background-color: green;
+} 
 }

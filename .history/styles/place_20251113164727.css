@@ -55,14 +55,14 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: green;
-    }
-    .place-info{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: var(--font-size);
-        background-color: green;
-    }
+    background-color: green;
+}
+.place-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size);
+    background-color: green;
+} 
 }

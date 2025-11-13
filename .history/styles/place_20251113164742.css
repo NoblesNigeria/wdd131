@@ -59,10 +59,10 @@ footer{
     }
     .place-info{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: var(--font-size);
-        background-color: green;
-    }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size);
+    background-color: green;
+} 
 }
