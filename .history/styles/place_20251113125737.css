@@ -28,7 +28,7 @@ header{
     font-size: var(--font-size);
     background-color: green;
 }
-.content img::after{
+.content img::{
     top: 20px;
     right: 5px;
     position: absolute;

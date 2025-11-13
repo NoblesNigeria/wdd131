@@ -28,11 +28,7 @@ header{
     font-size: var(--font-size);
     background-color: green;
 }
-.content img::after{
-    top: 20px;
-    right: 5px;
-    position: absolute;
-}
+
 
 footer{
     display: flex;
