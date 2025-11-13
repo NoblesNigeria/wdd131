@@ -46,8 +46,6 @@ footer{
     flex-direction: column;
 }
 @media screen and(min-width:40rem){
-    body{
-        grid-template-columns: 1fr;
-
+    body
     }
 }
