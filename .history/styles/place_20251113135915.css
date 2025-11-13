@@ -4,15 +4,7 @@ body{
         justify-content: center;
 
     }
-    header{
-    display: flex;
-    justify-content: center;
-    padding: var(--padding);
-    font-size: 2rem;
-    color: white;
-    align-items: center;
-    background-color: black;
-}
+    
 
 .content{
     display: flex;
