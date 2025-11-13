@@ -45,7 +45,7 @@ footer{
     background-color: black;
     flex-direction: column;
 }
-@media screen and(min-width:40rem){
+@media screen h1(min-width: 40rem){
     body{
         display: grid;
         grid-template-columns: 1fr;
