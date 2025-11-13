@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    font-size: var(--font-size);
 }
 .place-info{
     display: flex;

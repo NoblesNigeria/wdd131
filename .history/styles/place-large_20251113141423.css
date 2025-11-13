@@ -55,8 +55,9 @@ footer{
     background-color: green;
 }
 footer p{
-    display: flex;
     justify-content: center;
+    margin: 0;
+    padding: var(--padding);
     font-size: 1rem;
     color: white;
     align-items: center;

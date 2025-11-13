@@ -52,7 +52,7 @@ p span{
 footer{
     display: grid;
     grid-template-columns: 1fr;
-    background-color: green;
+    backg
 }
 footer p{
     display: flex;
