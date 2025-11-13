@@ -27,8 +27,9 @@ div{
     left: 800px;
 }
 .content img{
-    top: 2px;
-    right: 2px;
+    top: 5px;
+    right: 5
+    px;
     position: absolute;
 }
 p{

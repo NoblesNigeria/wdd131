@@ -31,6 +31,9 @@ div{
     right: 2px;
     position: absolute;
 }
+.content h2{
+    left:10px;
+}
 p{
     font-weight: bold;
 }
