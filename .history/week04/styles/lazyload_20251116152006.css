@@ -1,0 +1,17 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: wh
+}

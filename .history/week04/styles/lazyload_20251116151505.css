@@ -1,0 +1,10 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+main{
+    display:flex
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
