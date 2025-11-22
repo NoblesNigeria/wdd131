@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Photo Album</title>
+    <meta name="author" content="Nwose Anthony">
+    <meta name="description" content="These are my favorite temples of The Church of Jesus Christ of latter-day Saints">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span>Temple Album</span>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigator">
+                <li><a class="box" href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a class="give" href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a class="sharp" href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="temple-cards">
+            <section class="temple-card">
+            <h2><span id="templeName"></span></h2>
+            <p>Location:<span id="location"></span></p>
+            <p>Dedicated:<span id="dedicated"></span></p>
+            <p>Area:<span id="area"></span> sq ft</p>
+            <img src="temple.imageUrl" alt="Temple Image" loading="lazy">
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span> Nwose Anthony. All rights reserved.</p>
+        <p>last-modified <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>

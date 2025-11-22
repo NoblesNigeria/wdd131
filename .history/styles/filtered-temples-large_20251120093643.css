@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 200px;
+}
+header{
+    background-color: lightgray;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color:black;
+    gap: 100px;
+
+}
+main{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+section{
+    display:flex;
+    flex-direction: column;
+    box-
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+}
+h1{
+    display:flex;
+    grid-column: 1/4;
+    justify-content: center;
+    color:blue;
+}
