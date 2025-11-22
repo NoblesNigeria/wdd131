@@ -78,7 +78,7 @@ const temples = [
   {
     templeName: "Salt Lake",
     location: "Salt Lake City, Utah, United States",
-    dedicated: "1893, April, 6",
+    dedicated: "1893, April,",
     area: 382207,
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg"
@@ -97,7 +97,7 @@ function displayTempleCards() {
   const container = document.querySelector(".temple-cards");
 
   temples.forEach((temple) => {
-    let card = document.createElement("box");
+    let card = document.createElement("section");
     let name = document.createElement("h2");
     let location = document.createElement("p");
     let dedicated = document.createElement("p");
@@ -123,3 +123,4 @@ function displayTempleCards() {
   });
 }
   displayTempleCards();
+

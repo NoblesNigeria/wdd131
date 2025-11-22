@@ -123,3 +123,6 @@ function displayTempleCards() {
   });
 }
   displayTempleCards();
+  const templeData=displayTempleCards()
+  filteredTemple(temple)
+

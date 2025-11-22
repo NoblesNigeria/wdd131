@@ -123,3 +123,5 @@ function displayTempleCards() {
   });
 }
   displayTempleCards();
+  const templeData=displayT
+

@@ -123,3 +123,4 @@ function displayTempleCards() {
   });
 }
   displayTempleCards();
+

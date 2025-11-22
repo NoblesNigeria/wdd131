@@ -97,7 +97,7 @@ function displayTempleCards() {
   const container = document.querySelector(".temple-cards");
 
   temples.forEach((temple) => {
-    let card = document.createElement("box");
+    let card = document.createElement("section");
     let name = document.createElement("h2");
     let location = document.createElement("p");
     let dedicated = document.createElement("p");
@@ -121,5 +121,17 @@ function displayTempleCards() {
 
     container.appendChild(card);
   });
+displayTempleCards();
 }
-  displayTempleCards();
+
+
+  });
+  const oldTemple= document.querySelector('#old')
+  oldTemple.addEventListener('click',()=>{
+    function displayCards(filteredTemples){
+      oldTemple=temples.filter(temple=>temple.dedicated)<1900
+    }
+  });
+  displayTempleCards(oldTemole);
+
+

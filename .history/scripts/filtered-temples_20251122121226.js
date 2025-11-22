@@ -123,3 +123,11 @@ function displayTempleCards() {
   });
 }
   displayTempleCards();
+
+  const templeData=displayTempleCards();
+  filteredTemple(templeData);
+  const oldTempleNav=document.querySelector('oldTemple')
+oldTempleNav.addEventListener("click",()=>{
+  filtered
+})
+

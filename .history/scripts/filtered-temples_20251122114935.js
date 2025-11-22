@@ -123,3 +123,5 @@ function displayTempleCards() {
   });
 }
   displayTempleCards();
+  templeDa
+

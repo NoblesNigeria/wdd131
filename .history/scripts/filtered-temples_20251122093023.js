@@ -31,7 +31,7 @@ const temples = [
     templeName: "Payson Utah",
     location: "Payson, Utah, United States",
     dedicated: "2015, June, 7",
-    area: 96630,
+    area: 96630,c
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
   },
@@ -94,10 +94,10 @@ const temples = [
 ];
 
 function displayTempleCards() {
-  const container = document.querySelector(".temple-cards");
+  onst container = document.querySelector(".temple-cards");
 
   temples.forEach((temple) => {
-    let card = document.createElement("box");
+    let card = document.createElement("section");
     let name = document.createElement("h2");
     let location = document.createElement("p");
     let dedicated = document.createElement("p");
@@ -122,4 +122,6 @@ function displayTempleCards() {
     container.appendChild(card);
   });
 }
-  displayTempleCards();
+displayTempleCards()
+
+
