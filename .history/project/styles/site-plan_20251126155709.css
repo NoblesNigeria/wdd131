@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    grid-template-columns: 3 1fr;
+}
+header{
+    
+}
+header img{
+    display: flex;
+    position: absolute;
+    justify-content: left;
+}

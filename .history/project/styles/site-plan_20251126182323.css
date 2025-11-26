@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    grid-template-columns: 3 1fr;
+    width: 800px;
+    margin-left:50px;
+    
+}
+header{
+    background-color: green;
+}
+header img{
+    display: flex;
+    position: absolute;
+    justify-content: left;
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: roboto sans-serif;
+    font-weight: 400;
+}
+p{
+    font-size: large;
+    font-weight: 100;
+}
+main img{
+    display:flex;
+    position:absolute;
+    justify-content: center;
+    grid-column: 2/3;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    justify-content: center;
+    color: white;
+}
+span{
+    display: flex;
+    flex-direction: column;
+}
+
