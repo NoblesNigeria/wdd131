@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f5f7;
+  margin: 0;
+  padding: 20px;
+  width:400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 300px;
+  margin: auto;
+  background: lightgray;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+label,
+legend {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.rating-group{
+    display: grid;
+}
+.rating-group label{
+  display: block;
+  grid: row 1px; ;
+  margin-top: 5px;
+  display:flex;
+  flex-direction: row;
+}
+.rating-group input[type=radio]{
+    
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}

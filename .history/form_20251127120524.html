@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Review Form</title>
+  <link rel="stylesheet" href= "styles/form.css">
+  <script src="scrips/form.js"></script>
+</head>
+<body>
+
+  <h1>Product Review Form</h1>
+
+  <form action="review.html" method="get">
+
+    <!-- Product Name -->
+    <label for="productName">Product Name</label>
+    <select id="productName" name="productName" required>
+      <option value="" disabled selected>Select a Product ...</option>
+      <!-- Options dynamically inserted by JS -->
+    </select>
+
+    <!-- Overall Rating -->
+    <fieldset class="rating-group">
+      <legend>Overall Rating</legend>
+
+      <label>
+        <input type="radio" name="rating" id="rate1" value="1" required>
+        ☆
+      </label>
+
+      <label>
+        <input type="radio" name="rating" id="rate2" value="2" required>
+        ☆☆
+      </label>
+
+      <label>
+        <input type="radio" name="rating" id="rate3" value="3" required>
+        ☆☆☆
+      </label>
+
+      <label>
+        <input type="radio" name="rating" id="rate4" value="4" required>
+        ☆☆☆☆
+      </label>
+
+      <label>
+        <input type="radio" name="rating" id="rate5" value="5" required>
+        ☆☆☆☆☆
+      </label>
+
+    </fieldset>
+
+    <!-- Installation Date -->
+    <label for="installDate">Date of Installation</label>
+    <input type="date" id="installDate" name="installDate" required>
+
+    <!-- Useful Features -->
+    <fieldset>
+      <legend>Useful Features (Check all that apply)</legend>
+
+      <label><input type="checkbox" id="feature1" name="features" value="durability"> Durability</label>
+      <label><input type="checkbox" id="feature2" name="features" value="efficiency"> Efficiency</label>
+      <label><input type="checkbox" id="feature3" name="features" value="design"> Design</label>
+      <label><input type="checkbox" id="feature4" name="features" value="performance"> Performance</label>
+
+    </fieldset>
+
+    <!-- Written Review -->
+    <label for="reviewText">Written Review</label>
+    <textarea id="reviewText" name="reviewText" rows="4"></textarea>
+
+    <!-- Username -->
+    <label for="username">Your Name (Optional)</label>
+    <input type="text" id="username" name="username">
+
+    <input type="submit" value="Submit Review">
+
+  </form>
+
+  <footer>
+    <p>&copy; <span id='current-year></span>Nwose Anthony</p>
+    <p>Last Modified:<span id="last-modified"></span></p>
+  </footer>
+</body>
+</html>
