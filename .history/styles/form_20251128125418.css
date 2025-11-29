@@ -1,9 +1,4 @@
 @media only screen and (min-width: 40rem) {
-	header {
+	header span {
 		font-size: 2rem;
 	}
-
-    body{
-        width: 300px;
-    }
-}
