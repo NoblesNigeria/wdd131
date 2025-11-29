@@ -1,6 +1,6 @@
 body {
   display:grid;
-  grid-template-columns: 3 1fr;
+  
   font-family: Arial, sans-serif;
   background: #f2f5f7;
   margin: 0;
