@@ -43,6 +43,7 @@ fieldset {
 }
 .rating-group label{
   grid-row:1;
+  
 }
 .rating-group input[type=radio]{
   display: block;
