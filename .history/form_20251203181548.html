@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Your Name">
+  <meta name="description" content="A standard form that follows standard practices such as accessibility, clarity, confirmation message.">
+  <title>Product Review Form</title>
+  <link rel="stylesheet" href="styles/form-large.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <script src="scripts/form.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Product Review Form</h1>
+  </header>
+
+  <form action="review.html" method="get">
+
+
+    <label for="productName">Product Name</label>
+    <select id="productName" name="productName" required>
+      <option value="" disabled selected>Select a Product</option>
+
+    </select>
+
+
+    <fieldset class="rating-group">
+      <legend>Overall Rating</legend>
+      <label for="rate1">☆</label>
+      <input type="radio" name="rating" id="rate1" value="1" required>
+
+      <label for="rate2">☆☆</label>
+      <input type="radio" name="rating" id="rate2" value="2" required>
+
+      <label for="rate3">☆☆☆</label>
+      <input type="radio" name="rating" id="rate3" value="3" required>
+
+      <label for="rate4">☆☆☆☆</label>
+      <input type="radio" name="rating" id="rate4" value="4" required>
+
+      <label for="rate5">☆☆☆☆☆</label>
+      <input type="radio" name="rating" id="rate5" value="5" required>
+
+    </fieldset>
+
+
+    <label for="installDate">Date of Installation</label>
+    <input type="date" id="installDate" name="installDate" required>
+
+
+    <fieldset>
+      <legend>Useful Features (Check all that apply)</legend>
+
+      <label for="feature1">
+      <input type="checkbox" id="feature1" name="features" value="durability">
+      Durability
+      </label>
+      <label for="feature2">
+      <input type="checkbox" id="feature2" name="features" value="efficiency">
+      Efficiency
+      </label>
+      <label for="feature3">
+      <input type="checkbox" id="feature3" name="features" value="design">
+      Design
+      </label>
+
+      <label for="feature4">
+      <input type="checkbox" id="feature4" name="features" value="performance">
+      Performance
+      </label>
+    </fieldset>
+
+    <label for="reviewText">Written Review</label>
+    <textarea id="reviewText" name="reviewText" rows="4"></textarea>
+
+
+    <label for="username">Your Name (Optional)</label>
+    <input type="text" id="username" name="username">
+
+    <label for="postReview">Post Review (Optional)</label>
+    <input type="text" id="postReview" name="postReview">
+
+     <input type=""
+  </form>
+
+  <footer>
+    <p>&copy; <span id="current-year"></span>Nwose Anthony</p>
+    <p>Last Modified:<span id="last-modified"></span></p>
+  </footer>
+</body>
+</html>

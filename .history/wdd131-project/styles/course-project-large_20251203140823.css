@@ -1,0 +1,24 @@
+body{
+    display :grid;
+    grid-template-columns: (3 1fr);
+}
+header{
+    background-color: lightgray ;
+}
+h1{
+    color:green;
+    padding: 10px;
+    text-align: center;
+    font-size: 400 bold;
+
+}
+h2{
+    color:green;
+}
+p{
+    font-weight: 400;
+    font-size: large;
+}
+p span{
+    font-weight: 400 bold;
+}

@@ -1,0 +1,42 @@
+body{
+    display:grid;
+    grid-template-columns: (3 1fr);
+    max-width: 800px;
+    margin-left: 230px;
+}
+header{
+    background-color: lightgray ;
+}
+h1{
+    display: flex;
+    grid-row: 1;
+    color:green;
+    padding: 10px;
+    justify-content: center;
+    font-size: 400 bold;
+
+}
+h2{
+    color:green;
+}
+p{
+    font-weight: 400;
+    font-size: large;
+}
+p span{
+    font-weight: 700;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+
+}
+a:hover
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: center;;
+
+}

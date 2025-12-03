@@ -1,0 +1,6 @@
+@media screen (min-width: 32em){
+    body{
+        grid-template: 1fr;
+
+    }
+}
