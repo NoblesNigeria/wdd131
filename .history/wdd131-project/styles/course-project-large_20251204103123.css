@@ -1,0 +1,85 @@
+body{
+    display:grid;
+    grid-template-columns: (3 1fr);
+    max-width: 800px;
+    margin-left: 230px;
+}
+header{
+    display: flex;
+    background-color: lightgray ;
+}
+h1{
+    margin-left: 100px;
+    color:green;
+    padding: 10px;
+    font-size: 400 bold;
+}
+h2{
+    color:green;
+}
+h3{
+    color: blue;
+}
+h4{
+    color:;
+}
+p{
+    font-weight: 400;
+    font-size: large;
+}
+p span{
+    font-weight: 700;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+
+}
+a{
+    color:red;
+}
+a:hover{
+    color:green;
+}
+form{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    width: 300px;
+    border: 2px solid green;
+}
+#submit{
+    width: 50px;
+    color:white;
+    background-color: blue;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: center;;
+
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif
+}
+thead,tr{
+  background-color: rgb(200 220 240);
+}
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+th {
+  text-align: center;
+  font-weight: bold;
+}

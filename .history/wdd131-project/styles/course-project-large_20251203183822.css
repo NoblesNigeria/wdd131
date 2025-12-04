@@ -1,0 +1,58 @@
+body{
+    display:grid;
+    grid-template-columns: (3 1fr);
+    max-width: 800px;
+    margin-left: 230px;
+}
+header{
+    display: flex;
+    background-color: lightgray ;
+}
+h1{
+    margin-left: 250px;
+    color:green;
+    padding: 10px;
+    font-size: 400 bold;
+}
+h2{
+    color:green;
+}
+p{
+    font-weight: 400;
+    font-size: large;
+}
+p span{
+    font-weight: 700;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+
+}
+a{
+    color:red;
+}
+a:hover{
+    color:green;
+}
+form{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    width: 300px;
+    border: 2px solid green;
+}
+#submit{
+    width: 50px;
+    color: blue;
+    background-color: ;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: center;;
+
+}
