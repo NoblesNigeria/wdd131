@@ -54,9 +54,7 @@ form{
     color:white;
     background-color: blue;
 }
-#submit:hover{
-    color:blue;
-}
+#submit
 footer{
     display: flex;
     flex-direction: column;
