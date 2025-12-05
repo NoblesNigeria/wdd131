@@ -49,17 +49,17 @@ form{
     width: 300px;
     border: 2px solid green;
 }
+label{
+    padding: 5px;
+}
 #submit{
-    width: 100px;
+    width: 70px;
     color:white;
     background-color: blue;
-    padding: 5px;
+    padding: 10px;
 }
 #submit:hover{
-    background-color: green;
-}
-input[type=text]{
-    padding: 5px;
+    color: green;
 }
 footer{
     display: flex;

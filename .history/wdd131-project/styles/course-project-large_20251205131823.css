@@ -50,16 +50,12 @@ form{
     border: 2px solid green;
 }
 #submit{
-    width: 100px;
+    width: 0px;
     color:white;
     background-color: blue;
-    padding: 5px;
 }
 #submit:hover{
-    background-color: green;
-}
-input[type=text]{
-    padding: 5px;
+    color: green;
 }
 footer{
     display: flex;
