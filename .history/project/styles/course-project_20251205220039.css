@@ -1,0 +1,6 @@
+@media sce and (min-width: 32em){
+    body{
+        display: grid;
+
+    }
+}
