@@ -29,11 +29,6 @@ function populateAddress() {
 document.addEventListener("DOMContentLoaded", populateAddress);
 
 
-document.getElementById('current-year').textContent = new Date().getFullYear();
-// Set last modified date in footer
-document.getElementById('last-modified').textContent = document.lastModified;
-
-
 
 const form = document.getElementById("myForm");
 
@@ -53,7 +48,14 @@ form.addEventListener("submit", function(event) {
     document.getElementById("result").innerText =
         "Saved: " + name + " (" + email + ")";
 });
+✅ 3. Retrieve Data Later (Optional)
+If you want to automatically load saved data when the page opens:
 
+Add this to script.js:
+
+javascript
+Copy code
+window.onload = function() {
     const savedName = localStorage.getItem("userName");
     const savedEmail = localStorage.getItem("userEmail");
 
@@ -61,6 +63,7 @@ form.addEventListener("submit", function(event) {
         document.getElementById("name").value = savedName;
         document.getElementById("email").value = savedEmail;
     }
+};
 
 document.getElementById('current-year').textContent = new Date().getFullYear();
 // Set last modified date in footer

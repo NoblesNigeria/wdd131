@@ -29,38 +29,8 @@ function populateAddress() {
 document.addEventListener("DOMContentLoaded", populateAddress);
 
 
-document.getElementById('current-year').textContent = new Date().getFullYear();
-// Set last modified date in footer
-document.getElementById('last-modified').textContent = document.lastModified;
 
 
-
-const form = document.getElementById("myForm");
-
-// When form is submitted
-form.addEventListener("submit", function(event) {
-    event.preventDefault(); // prevent page reload
-
-    // Get form values
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-
-    // Save to local storage
-    localStorage.setItem("userName", name);
-    localStorage.setItem("userEmail", email);
-
-    // Show confirmation
-    document.getElementById("result").innerText =
-        "Saved: " + name + " (" + email + ")";
-});
-
-    const savedName = localStorage.getItem("userName");
-    const savedEmail = localStorage.getItem("userEmail");
-
-    if (savedName && savedEmail) {
-        document.getElementById("name").value = savedName;
-        document.getElementById("email").value = savedEmail;
-    }
 
 document.getElementById('current-year').textContent = new Date().getFullYear();
 // Set last modified date in footer

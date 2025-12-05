@@ -29,11 +29,6 @@ function populateAddress() {
 document.addEventListener("DOMContentLoaded", populateAddress);
 
 
-document.getElementById('current-year').textContent = new Date().getFullYear();
-// Set last modified date in footer
-document.getElementById('last-modified').textContent = document.lastModified;
-
-
 
 const form = document.getElementById("myForm");
 
@@ -61,6 +56,7 @@ form.addEventListener("submit", function(event) {
         document.getElementById("name").value = savedName;
         document.getElementById("email").value = savedEmail;
     }
+
 
 document.getElementById('current-year').textContent = new Date().getFullYear();
 // Set last modified date in footer
