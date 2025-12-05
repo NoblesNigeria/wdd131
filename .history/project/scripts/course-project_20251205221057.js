@@ -29,6 +29,9 @@ function populateAddress() {
 document.addEventListener("DOMContentLoaded", populateAddress);
 
 
+
+
+
 const form = document.getElementById("myForm");
 
 // When form is submitted
